@@ -1,0 +1,443 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: tit;
+    color: #fff;
+}
+
+/* COLORS */
+
+:root {
+    --bgc-ct-left: rgb(158, 133, 226);
+    --logo-bgc: #9015e2;
+    --border-color: #888;
+    --silver-bgc: #eee
+}
+
+/*FONTS */
+
+@font-face {
+    font-family: tit;
+    src: url(TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Light.ttf);
+}
+
+/* START */
+
+body {
+    background-color: var(--silver-bgc)
+}
+
+#container {
+    max-width: 1340px;
+    margin: 10px 80px;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* START - ConTainer-LEFT -> [ CT-LEFT ] */
+
+#ct-left {
+    width: 220px;
+    height: 760px;
+    background-color: var(--bgc-ct-left);
+}
+
+#column {
+    width: 150px;
+    margin-left: 24px;
+}
+
+/* LOGO STYLE */
+
+#logo {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: var(--logo-bgc)
+}
+
+/* IMAGE STYLE */
+
+#logo img {
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* TEXT STYLE */
+
+#logo h5 {
+    font-size: 14px;
+    font-family: tit;
+    color: #fff;
+    letter-spacing: 1.3px;
+}
+
+/* MENU STYLE */
+
+#menu-left ul li {
+    margin-top: 30px;
+    display: flex;
+    width: 20px;
+}
+
+/* MENU ICONS STYLE */
+
+#menu-left ul li i {
+    font-size: 21px;
+    color: #fff;
+    margin-right: 18px;
+}
+
+#menu-left ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+#menu-left ul li:last-of-type {
+    margin-left: -2px;
+}
+
+/* TITLE STYLE [ PROJECT , BUSINESS , PERSONAL , . . . ] */
+
+#titles ul {
+    margin-top: 35px;
+    padding-top: 13px;
+    padding-bottom: 28px;
+    margin-bottom: 130px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+#titles ul li {
+    margin-top: 15px;
+}
+
+#titles ul li a {
+    font-family: tit;
+    font-size: 13px;
+}
+
+#titles ul li i {
+    font-size: 10px;
+    margin-right: 15px;
+    margin-left: 4px;
+}
+
+/* CIRCLES COLOR */
+
+.yellow {
+    color: rgb(255, 217, 0);
+}
+
+.orange {
+    color: rgb(255, 132, 50);
+}
+
+.blue {
+    color: rgb(112, 186, 255);
+}
+
+/* PLUS + COLOR */
+
+.plus {
+    color: #fff;
+}
+
+/* BRANDS ICON [ FB , TW , IN ] */
+
+#icons i {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+/* FOOTER TEXT */
+
+#footer p {
+    font-size: 9px;
+    color: #fff;
+    font-family: tit;
+}
+
+/* END ConTainer LEFT -> [ CT-LEFT ]  */
+
+
+
+/* START ConTainer RIGHT -> [ CT-RIGHT ] */
+
+#ct-right {
+    width: 1120px;
+    height: 760px;
+}
+
+/* HEADER-TOP [ SEARCH BOX , PROFILE ] */
+
+#header-top {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* SEARCH BOX */
+
+#search-box {
+    margin-left: 40px;
+}
+
+/* SEARCH ICON STYLE */
+
+#search-box i {
+    font-size: 21px;
+    color: #000;
+    margin-right: 10px;
+}
+
+/* SEARCH INPUT STYLE */
+
+#search-box input {
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    font-family: tit;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+
+/* PROFILE */
+
+#profile {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+
+/* BELL ICON STYLE */
+
+#profile i {
+    font-size: 21px;
+    color: #000;
+}
+
+/* IMG STYLE */
+
+#profile img {
+    width: 34px;
+    height: 34px;
+}
+
+/* TEXT STYLE */
+
+#profile span {
+    font-family: tit;
+    font-size: 16px;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+/* MAIN -> [ HEADER-MENU , NOTE-LIST ] */
+
+#main {
+    background-color: var(--silver-bgc);
+}
+
+/* HEADER MENU */
+
+#header-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 28px;
+}
+
+/* TITLE MENU -> [ All , Projects , Business , Personal ] */
+
+#title-menu ul {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+#title-menu ul li a {
+    color: #000;
+    font-family: tit;
+    margin-right: 20px;
+
+}
+
+#title-menu>ul>li:first-of-type a {
+    color: #fff;
+    background-color: var(--logo-bgc);
+    padding: 5px 25px;
+    border-radius: 4px;
+}
+
+/* NEW NOTE */
+
+#newnote {
+    position: absolute;
+    right: 0;
+    font-family: tit;
+    margin-right: 40px;
+}
+
+/* NEW NOTE A COLOR [ ICON , TEXT ] */
+
+#newnote a {
+    color: var(--logo-bgc);
+}
+
+/* ICON STYLE */
+
+#newnote a i {
+    font-size: 18px;
+    margin-right: 5px;
+
+}
+
+/* TEXT STYLE */
+
+#newnote a span {
+    font-size: 17px;
+}
+
+/* MARGIN FOR ANYTHING INSIDE NOTE */
+
+.margin {
+    margin-left: 20px;
+}
+
+/* DATE */
+
+.date {
+    margin-top: 8px;
+}
+
+/* TEXT STYLE */
+
+.date span {
+    font-family: tit;
+    color: rgb(46, 46, 46);
+    font-size: 13px;
+}
+
+/* TITLE */
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+/* ICON STYLE */
+
+.title i {
+    font-size: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* TEXT STYLE */
+
+.title span {
+    font-family: poppins;
+    font-weight: 600;
+    margin-left: 8px;
+
+}
+
+/* NOTE LIST */
+
+#note-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* TEXTAREA STYLE */
+
+.text textarea {
+    width: 180px;
+    height: 80px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: tit;
+    font-size: 15px;
+    color: #000;
+}
+
+/* NOTE */
+
+.note {
+    width: 230px;
+    height: 210px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+/* TEXT STYLE -> [ SAVE ] */
+
+.note-footer a span {
+    color: #fff;
+    font-family: tit;
+    padding: 6px 32px;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    margin-right: 20px;
+}
+
+.note-footer {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* ICONS STYLE */
+
+.note-footer a i {
+    color: #000;
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
+
+/* TRASH STYLE */
+.trash {
+    margin-left: 20px;
+}
+
+.trash:hover {
+    color: red;
+}
+
+/* PENCIL STYLE */
+
+.pencil:hover {
+    color: green;
+}
+

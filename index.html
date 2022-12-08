@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ICON -->
+    <link rel="icon" href="Images/notes-icon-21.jpg">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- CONTAINER -->
+    <div id="container">
+        <!-- CT-LEFT -->
+        <div id="ct-left">
+            <div id="logo">
+                <img src="Images/notes-icon-21.jpg" alt="LOGO">
+                <h5>STICKY NOTE</h5>
+            </div>
+            <div id="column">
+                <div id="menu-left">
+                    <!-- MENU -->
+                    <ul>
+                        <!-- ICON + TEXT -->
+                        <li>
+                            <i class="fa-solid fa-bolt"></i>
+                            <a href="#">Overview</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-calendar"></i>
+                            <a href="#">Tasks</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-file-lines"></i>
+                            <a href="#">Documents</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-book"></i>
+                            <a href="#">Notes</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-code-branch"></i>
+                            <a href="#">Output</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-headset"></i>
+                            <a href="#">Support</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="titles">
+                    <!-- TITLE NOTES -->
+                    <ul>
+                        <li>
+                            <i class="yellow fa-solid fa-circle"></i>
+                            <a href="#">Projects</a>
+                        </li>
+                        <li>
+                            <i class="orange fa-solid fa-circle"></i>
+                            <a href="#">Business</a>
+                        </li>
+                        <li>
+                            <i class="blue fa-solid fa-circle"></i>
+                            <a href="#">Personal</a>
+                        </li>
+                        <li>
+                            <i class="plus fa-solid fa-plus"></i>
+                            <a href="#">Add new</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- FOOTER CT-LEFT -->
+                <div id="footer">
+                    <div id="icons">
+                        <!-- BRAND ICONS -->
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <p>2017 All rights reserved</p>
+                </div>
+            </div>
+        </div>
+        <!-- CT-RIGHT -->
+        <div id="ct-right">
+            <div id="header-top">
+                <!-- SEARCH-BOX -->
+                <div id="search-box">
+                    <!-- SEARCH ICON -->
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <!-- INPUT -->
+                    <input type="text" placeholder="Search">
+                </div>
+                <!-- PROFILE -->
+                <div id="profile">
+                    <!-- IMG -->
+                    <img src="Images/clipart1005846.png" alt="PROFILE PHOTO">
+                    <!-- TEXT -->
+                    <span>Hello, Mike!</span>
+                    <!-- BELL ICON -->
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+            </div>
+            <div id="main">
+                <div id="header-menu">
+                    <!-- TITLE-MENU -->
+                    <div id="title-menu">
+                        <ul>
+                            <li><a href="#">All</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Personal</a></li>
+                        </ul>
+                    </div>
+                    <!-- NEW NOTE -->
+                    <div id="newnote">
+                        <a href="#">
+                            <i class="fa-solid fa-circle-plus"></i>
+                            <span>Add new note</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- NOTE-LIST -->
+                <div id="note-list">
+                    <!-- NOTE -->
+                    <div class="note">
+                        <div class="margin">
+                            <!-- DATE -->
+                            <div class="date">
+                                <span>23 June, 2022</span>
+                            </div>
+                            <div class="title-text">
+                                <div class="title">
+                                    <!-- CIRCLE ICON -->
+                                    <i class="orange fa-solid fa-circle"></i>
+                                    <!-- TEXT -->
+                                    <span>Test</span>
+                                </div>
+                                <div class="text">
+                                    <!-- TEXT AREA ( PLACEHOLDER ) -->
+                                    <textarea placeholder="Write Your Text"></textarea>
+                                </div>
+                            </div>
+                            <!-- NOTE-FOOTER -->
+                            <div class="note-footer">
+                                <a href="#">
+                                    <!-- SAVE -->
+                                    <span>Save</span>
+                                    <!-- PENCIL ICON -->
+                                    <i class="pencil fa-solid fa-pencil">
+                                    </i>
+                                    <!-- TRASH ICON -->
+                                    <i class="trash fa-solid fa-trash-can">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
